@@ -3,6 +3,7 @@ import NotFoundPage from "@/components/pages/NotFoundPage";
 import { routes } from "@/constants/routes";
 
 const config = [
+  { path: "/", protected: true }, // Rota raiz
   ...Object.entries(routes).map(([, path]) => ({
     path,
     protected: true,

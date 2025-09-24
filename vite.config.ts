@@ -9,6 +9,14 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
+  server: {
+    host: "0.0.0.0",
+    port: 12000,
+    cors: true,
+    headers: {
+      "X-Frame-Options": "ALLOWALL",
+    },
+  },
   build: {
     outDir: "build",
   },
