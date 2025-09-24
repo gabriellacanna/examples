@@ -1,4 +1,4 @@
-FROM us-docker.pkg.dev/shared-prod-tech/golden/nginx:alpine
+FROM nginx:alpine
 
 USER root
 
