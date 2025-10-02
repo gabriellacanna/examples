@@ -12,7 +12,7 @@ const AppRouter = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/front-icbox-pf">
       <Routes>
         {config.map((route, index) => {
           if ("protected" in route) {

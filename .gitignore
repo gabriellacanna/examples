@@ -47,6 +47,9 @@ pids
 coverage/
 *.lcov
 
+# Test results
+testResults/
+
 # nyc test coverage
 .nyc_output
 
